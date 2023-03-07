@@ -1,5 +1,6 @@
  body{
   overflow-x: hidden;
+ 
 
 } 
 
@@ -141,15 +142,17 @@
 
 .ipsum p{
  font-size: 18px;
+ /* margin: 0;
+ padding: 0; */
  
 }
 
 
 .ipsum h6{
-   font-size: 30px;
+   font-size: 40px;
    color: #002A50;
-   margin: 0;
-   padding: 0;
+   /* margin: 0;
+   padding: 0; */
 }
 
 .ipsum button{
@@ -161,6 +164,203 @@
   font-size: 20px;
   
 }
+
+.salute{
+  text-align: center;
+  color: #002A50;
+  margin-top: 50px;
+ 
+
+}
+
+.salute h1{
+   font-size: 40px;
+   margin: 0;
+   padding: 0;
+
+}
+
+.salute p{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.simple{
+  display: flex;
+  
+}
+
+.leap{
+  /* background-color: aqua; */
+  width: auto;
+  height: auto; 
+  /* border-right: 1px solid black; */
+  /* padding: 10px; */
+   margin-left: 70px; 
+  /* margin: auto; */
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  
+}
+
+.leap img{
+  width: 300px;
+  height: 200px;
+ border-radius: 10px; 
+}
+
+.leap h5{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.leap p{
+  /* margin: 10px;
+  padding: 0; */
+}
+
+.desktop{
+  /* background-color: aqua; */
+  width: auto;
+  height: auto;
+  /* border-right: 1px solid black; */
+  /* padding: 10px; */
+  margin-left: 70px; 
+
+}
+
+.desktop img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.desktop h5{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.desktop p{
+  /* margin: 10px;
+  padding: 0; */
+}
+
+
+.print h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.solutions{
+  display: flex;
+}
+
+.typesetting{
+  display: flex;
+}
+
+
+.computing{
+   width: auto;
+  height: auto; 
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px #ccc ;
+  
+}
+
+.solutions{
+  /* margin: 10px; 
+  padding: 10px; */
+}
+
+.active{
+  display: flex;
+  margin-top: 60px;
+}
+
+.been h1{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.product{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100px;
+  width: 250px; */
+  
+}
+
+.product img{
+  /* background-color: aqua;
+  border: 1px solid black; */
+}
+
+.top{
+  height: 90px;
+  width: 120px;
+  border: 1px solid black;
+    padding-left: 80px;  
+    padding-top: 20px; 
+   margin: 5px;
+
+   
+  
+ 
+}
+
+.top p{
+    /* margin-right: 20px; */
+}
+
+.machine{
+  display: flex;
+  margin-top: 80px;
+}
+
+.mobile{
+  width: auto;
+  height: auto;
+  background-color: #002A50;
+  border: 1px solid black;
+  padding: 40px;
+  color: #fff;
+  margin: 10px;
+  font-size: 15px;
+ 
+}
+
+.mobile h4{
+  font-size: 20px;
+}
+
+
+
+.growth{
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -405,6 +605,121 @@
 .range p{
   font-size: 30px;
 }
+
+.backend{
+  display: flex;
+}
+
+
+
+.thousand h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 70px;
+}
+
+
+.frontend p{
+  height: 150px;
+  width: 310px;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 20px;
+
+}
+
+.frontend img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.frontend img{
+  margin-left: 80px;
+}
+
+
+.frontend h4,h5{
+   /* text-align: center; 
+    padding: 0; 
+   margin: 0;
+  margin-left: 160px;
+  margin-top: 0px;
+  margin-bottom: 20px ;  */
+  margin-left: 160px;
+  /* padding-bottom: 200px; */
+   
+}
+
+
+.developer p{
+  height: 250px;
+  width: 310px;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 20px;
+  /* margin-bottom: 200px; */
+}
+
+
+.developer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.developer img{
+  margin-left: 80px;
+}
+
+.developer h4,h5{
+  /* text-align: center; 
+   padding: 0; 
+  margin: 0;
+ margin-left: 160px;
+ margin-top: 0px;
+ margin-bottom: 20px ;  */
+ margin-left: 160px;
+ /* margin-bottom: 200px; */
+}
+
+
+
+.science p{
+  height: 100px;
+  width: 310px;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 20px;
+}
+
+
+.science img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.science img{
+  margin-left: 80px;
+}
+
+
+.science h4,h5{
+  /* text-align: center; 
+   padding: 0; 
+  margin: 0;
+ margin-left: 160px;
+ margin-top: 0px;
+ margin-bottom: 20px ;  */
+ margin-left: 160px;
+}
+
+
+
+
+
+
 
 .team{
   text-align: center;
