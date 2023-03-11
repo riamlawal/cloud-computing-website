@@ -11,34 +11,35 @@
   
 } 
 
- .container{
+  .container{
   height: 13%;
   width: 100%;
   background-color: #002A50;
-} 
+}  
 
  .links ul{
-    display: flex;
+     display: flex; 
     list-style-type: none;
     } 
 
-.links ul li a {
+ .links ul li a {
   text-decoration: none;
   color: #fff;
-} 
+}   
 
 .links ul li{
-   padding-left: 20px; 
+     /* padding-right: 10px;    */
+   /* padding: 10px; */
+   /* margin: 10px; */
+}  
 
-} 
 
-
- .cloud{
+  .cloud{
   color: #fff;
   padding-left: 3%;
   margin-top: 14px;
   font-size: 20px;
-} 
+}  
   /* Navbar CSS ends here */
 
 
@@ -1831,6 +1832,7 @@ body {
 .across ul li {
      list-style-type: none;
      padding: 7px;
+
 }
 
 .across ul li a{
@@ -2176,6 +2178,188 @@ body {
     font-size: 20px;
     margin-left: 50%;
   }
+
+  
+.salute{
+  text-align: center;
+  color: #002A50;
+  margin-top: 50px;
+ 
+
+}
+
+.salute h1{
+   font-size: 30px;
+   margin: 0;
+   padding: 0;
+
+}
+
+.salute p{
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.simple{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.leap{
+  width: auto;
+  height: auto; 
+   margin-left: 70px; 
+  margin-top: 20px;
+  
+}
+
+.leap img{
+  width: 330px;
+  height: 250px;
+ border-radius: 10px; 
+}
+
+.simple .leap h5{
+  font-size: 20px;
+  margin: 1px;
+  padding: 1px;
+  color: #000;
+}
+
+
+.desktop{
+  
+  width: auto;
+  height: auto;
+  margin-left: 70px; 
+
+}
+
+.desktop img{
+  width: 330px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.desktop h5{
+  font-size: 20px;
+  margin: 1px;
+  padding: 1px;
+  color: #000;
+}
+
+
+.print h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+.solutions{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 130px;
+}
+
+.typesetting{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 130px;
+}
+
+
+.computing{
+   width: 300px;
+  height: 250px; 
+  border: 1px solid black;
+   margin: 20px; 
+   padding: 10px;  
+  box-shadow: 1px 1px 1px 1px #ccc ;
+} 
+
+
+.solutions .computing h4{
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.typesetting .computing h4{
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.active{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.been h1{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.product{
+  /* display: flex; */
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-left: 60px;
+  
+}
+
+.top{
+  height: 120px;
+  width: 140px;
+  border: 1px solid black;
+    padding-left: 80px;  
+    padding-top: 20px; 
+   margin: 5px;
+
+   
+  }
+
+
+
+.machine{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.mobile{
+  width: auto;
+  height: auto;
+  background-color: #002A50;
+  border: 1px solid black;
+  padding: 40px;
+  color: #fff;
+  margin: 10px;
+  font-size: 15px;
+ 
+}
+
+.mobile h4{
+  font-size: 20px;
+  color: #fff;
+  margin: auto;
+}
+
+
+
+
+.growth{
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+
   
 
   .over p{
@@ -2426,6 +2610,109 @@ body {
     font-size: 25px;
   }
 
+
+  .thousand h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    
+  }
+  
+  .backend{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .backend .frontend{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .backend .frontend p{
+    height: 150px;
+    width: 310px;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+  
+  }
+  
+  .backend .frontend img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .backend .frontend img{
+    margin-left: 80px;
+    margin-top: -20px;
+  }
+  
+  
+  .backend .frontend .developer .science, h4{
+    color: #002A50;
+   margin-top: -40px;
+    margin-left: 160px;
+    /* padding-bottom: 200px; */
+     
+  }
+  
+  .backend .frontend .developer .science, h5{
+    margin-top: -15px;
+    margin-left: 160px;
+  }
+  
+  .backend .developer{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .backend .developer p{
+    height: 250px;
+    width: 310px;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+  }
+  
+  
+  .backend .developer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .backend .developer img{
+    margin-left: 80px;
+    margin-top: -20px;
+  
+  }
+  
+  
+  .backend .science{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .backend .science p{
+    height: 100px;
+    width: 310px;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+  }
+  
+  
+  .backend .science img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: -20px;
+  }
+  
+  .backend .science img{
+    margin-left: 80px;
+  }
+  
+
   
 .team p{
   font-size: 25px;
@@ -2546,15 +2833,15 @@ africa{
  
   .nav{ 
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */ 
     
   } 
 
    .container{
   height: 13%;
   width: 100%;
-  background-color: #002A50;
+  background-color: green;
 }  
 
  /* .links ul{
@@ -2565,19 +2852,19 @@ africa{
  .links ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 11px;
+  font-size: 7px;
 }   
 
  .links ul li{
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }  
 
 
   .cloud{
   color: #fff; 
-   padding-left: 3%; 
-   margin-top: 14px; 
-  font-size: 15px; 
+   /* padding-left: 3%;  */
+   /* margin-top: 14px;  */
+  font-size: 7px; 
 }
 
 
@@ -2689,18 +2976,19 @@ africa{
 
 
 .ipsum p{
- font-size: 18px;
- text-align: center;
+ font-size: 40px;
+ /* text-align: center; */
  
 } 
 
  
 .ipsum h6{
-   font-size: 20px;
+   font-size: 40px;
    color: #002A50;
-   margin: 0;
-   padding: 0;
-   text-align: center;
+    margin-top: 60px;
+    /* margin: 0;  */
+     /* padding: 0;   */
+   /* text-align: center; */
 } 
 
  .ipsum button{
@@ -2711,7 +2999,190 @@ africa{
   width: 100px;
   font-size: 20px;
   /* align-items: center; */
-  margin-left: 10px;
+  margin-left: 25px;
+}
+
+
+
+.salute{
+  text-align: center;
+  color: #002A50;
+  margin-top: 50px;
+ 
+
+}
+
+.salute h1{
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+
+}
+
+.salute p{
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.simple{
+  display: inline-block;
+  flex-wrap: wrap;
+  
+}
+
+.leap{
+  width: auto;
+  height: auto; 
+   /* margin-left: 70px;  */
+  margin-top: 20px;
+  
+}
+
+.leap img{
+  width: 300px;
+  height: 200px;
+ border-radius: 10px; 
+}
+
+.simple .leap h5{
+  font-size: 25px;
+  margin: 1px;
+  padding: 1px;
+  color: #000;
+}
+
+
+.desktop{
+  
+  width: auto;
+  height: auto;
+  /* margin-left: 70px;  */
+  margin-top: 20px;
+
+}
+
+.desktop img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.desktop h5{
+  font-size: 20px;
+  margin: 1px;
+  padding: 1px;
+  color: #000;
+}
+
+
+.print h2{
+  /* text-align: center; */
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.solutions{
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.typesetting{
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+
+.computing{
+   width: 300px;
+  height: 250px; 
+  border: 1px solid black;
+   margin: 20px; 
+   padding: 10px;  
+  box-shadow: 1px 1px 1px 1px #ccc ;
+} 
+
+
+.solutions .computing h4{
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.typesetting .computing h4{
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.active{
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.been h1{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.product{
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  
+}
+
+.top{
+  height: 90px;
+  width: 120px;
+  border: 1px solid black;
+    padding-left: 80px;  
+    padding-top: 20px; 
+   margin: 5px;
+
+   
+  }
+
+
+
+.machine{
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.mobile{
+  width: auto;
+  height: auto;
+  background-color: #002A50;
+  border: 1px solid black;
+  padding: 40px;
+  color: #fff;
+  margin: 10 px;
+  font-size: 15px;
+ 
+}
+
+.mobile h4{
+  font-size: 20px;
+  color: #fff;
+  margin: auto;
+}
+
+
+
+
+.growth{
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 .over p{
@@ -2959,6 +3430,124 @@ africa{
 .range p{
   font-size: 30px;
 }
+
+
+.thousand h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 70px;
+  
+}
+
+.backend{
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.backend .frontend{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.backend .frontend p{
+  height: 150px;
+  width: 290px;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 20px;
+
+}
+
+.backend .frontend img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.backend .frontend img{
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+
+.backend .frontend .developer .science, h4{
+  color: #002A50;
+ margin-top: -40px;
+  margin-left: 160px;
+  /* padding-bottom: 200px; */
+   
+}
+
+.backend .frontend .developer .science, h5{
+  margin-top: -15px;
+  margin-left: 160px;
+}
+
+.backend .developer{
+  display: flex;
+  flex-flow: column wrap;
+}
+.backend .developer p{
+  height: 250px;
+  width: 310px;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 20px;
+}
+
+
+.backend .developer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.backend .developer img{
+  margin-left: 80px;
+  margin-top: -20px;
+
+}
+
+
+.backend .science{
+  display: flex;
+  flex-flow: column wrap;
+}
+.backend .science p{
+  height: 100px;
+  width: 310px;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 20px;
+}
+
+
+.backend .science img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: -20px;
+}
+
+.backend .science img{
+  margin-left: 80px;
+}
+
+
+.team{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.team h5{
+    color: #002A50;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 .africa{
   display: flex;
