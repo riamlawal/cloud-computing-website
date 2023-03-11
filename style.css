@@ -2976,19 +2976,19 @@ africa{
 
 
 .ipsum p{
- font-size: 40px;
- /* text-align: center; */
+ font-size: 45px;
+  text-align: center; 
  
 } 
 
  
 .ipsum h6{
-   font-size: 40px;
+   font-size: 50px;
    color: #002A50;
     margin-top: 60px;
     /* margin: 0;  */
      /* padding: 0;   */
-   /* text-align: center; */
+   text-align: center; 
 } 
 
  .ipsum button{
@@ -3034,7 +3034,7 @@ africa{
 .leap{
   width: auto;
   height: auto; 
-   /* margin-left: 70px;  */
+    margin-right: 40px; 
   margin-top: 20px;
   
 }
@@ -3091,12 +3091,12 @@ africa{
 .typesetting{
   display: inline-block;
   flex-wrap: wrap;
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 
 .computing{
-   width: 300px;
+   width: 350px;
   height: 250px; 
   border: 1px solid black;
    margin: 20px; 
@@ -3138,7 +3138,7 @@ africa{
 
 .top{
   height: 90px;
-  width: 120px;
+  width: 160px;
   border: 1px solid black;
     padding-left: 80px;  
     padding-top: 20px; 
@@ -3248,7 +3248,7 @@ africa{
 }
 
 .awesome h1{
-  font-size: 30px;
+  font-size: 27px;
 }
 
 .awesome p{
@@ -3269,7 +3269,7 @@ africa{
 .display img{
   height: 250px;
   width: 350px;
-  margin-right: 50px;    
+  /* margin-right: 50px;     */
     /* margin-left: 20px;    */
   border: 2px solid #002A50;
   border-radius: 10px;
