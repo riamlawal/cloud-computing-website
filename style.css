@@ -738,6 +738,29 @@ body {
       color: #fff;
   }
 
+   
+  #big--image{
+    width: 100%;
+      height: 80vh;
+      border-radius: .5em;
+      background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-865142998-170667a.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover;
+      background-position-x: center;
+      background-position-y: center;
+      margin: 1em;
+      position: relative;
+    
+  }
+
+  .big--image--text{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    }
+  
+
    main{
     display: flex;
     flex-direction: column;
@@ -798,7 +821,22 @@ body {
     border-radius: 0.5rem;
     font-size: 1rem;
     position: relative;
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-position-x: center;
+      background-position-y: center;
     } 
+
+    .card--1{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1321462048-612x612.jpg); }
+    .card--2{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1355030282-170667a.jpg);}
+    .card--3{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1359965690-170667a.jpg); }
+    .card--4{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1359965690-170667a.jpg);}
+    .card--5{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1398247146-170667a.jpg); }
+    .card--6{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1387498646-170667a.jpg);}
+    .card--7{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1398247146-170667a.jpg); }
+    .card--8{ background: linear-gradient(50deg, rgba(63, 59, 59, 0.5), rgba(161, 145, 145, 0.5)), url(images/istockphoto-1409475480-170667a.jpg); }
+
 
 
      .card p{
@@ -810,8 +848,10 @@ body {
 
 
     .block{
-        display: flex;
-        justify-content: space-around;
+        /* display: flex;
+        justify-content: space-around; */
+        color: #000;
+
     }
 
 
@@ -821,6 +861,25 @@ body {
         border-radius: 0.5rem;
         background-color: rgb(127, 194, 216);
     } 
+
+    /* offers sections...  */
+
+
+    #offers--section{
+      width: 100%;
+      /* background-color: #002A50; */
+      color: #000;
+      margin: .5em;
+ }
+ table, th, td {
+   text-align: justify;
+   padding-left: 3em;
+ }
+ table, td{
+   
+   padding-left: 5em;
+ }
+
 
 
      .background--image{
