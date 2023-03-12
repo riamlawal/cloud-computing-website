@@ -1374,9 +1374,31 @@ body {
             }  
         
         
-            /* Responsivenes */
+            /* Responsivenes for contact page mobile */
         
-        
+         
+@media screen and (max-width: 390px) {
+ 
+    
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         
         
            @media only screen and (max-width:1280px) { 
         
@@ -1640,9 +1662,9 @@ body {
             margin-left:9rem;
             }
         
-          }
+          } */
         
-        
+/*         
           @media only screen and (max-width:400px) {
         
             
@@ -1819,7 +1841,7 @@ body {
          
           }
         
-          
+           */
 
           
 
@@ -2900,7 +2922,7 @@ africa{
    .container{
   height: 13%;
   width: 100%;
-  background-color: green;
+  background-color: #002A50;
 }  
 
  /* .links ul{
