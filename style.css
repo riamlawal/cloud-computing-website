@@ -3036,7 +3036,7 @@ africa{
 
 .ipsum p{
  font-size: 45px;
- margin-left: 20px;
+ margin-left: 80px;
   /* text-align: center;  */
  
 } 
@@ -3046,7 +3046,7 @@ africa{
    font-size: 50px;
    color: #002A50;
     margin-top: 60px;
-    margin-left: 20px;
+    margin-left: 80px;
     /* margin: 0;  */
      /* padding: 0;   */
    /* text-align: center;  */
@@ -3095,7 +3095,7 @@ africa{
 .leap{
   width: auto;
   height: auto; 
-    margin-right: 200px; 
+    margin-right: 350px; 
   margin-top: 20px;
   
 }
@@ -3118,7 +3118,7 @@ africa{
   
   width: auto;
   height: auto;
-   margin-left: 200px;  
+   margin-left: 350px;  
   margin-top: 20px;
 
 }
