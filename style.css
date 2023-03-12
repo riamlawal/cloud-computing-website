@@ -1374,31 +1374,9 @@ body {
             }  
         
         
-            /* Responsivenes for contact page mobile */
+            /* Responsivenes */
         
-         
-@media screen and (max-width: 390px) {
- 
-    
-
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*         
+        
         
            @media only screen and (max-width:1280px) { 
         
@@ -1662,9 +1640,9 @@ body {
             margin-left:9rem;
             }
         
-          } */
+          }
         
-/*         
+        
           @media only screen and (max-width:400px) {
         
             
@@ -1841,7 +1819,7 @@ body {
          
           }
         
-           */
+          
 
           
 
@@ -3058,7 +3036,8 @@ africa{
 
 .ipsum p{
  font-size: 45px;
-  text-align: center; 
+ margin-left: 20px;
+  /* text-align: center;  */
  
 } 
 
@@ -3067,9 +3046,10 @@ africa{
    font-size: 50px;
    color: #002A50;
     margin-top: 60px;
+    margin-left: 20px;
     /* margin: 0;  */
      /* padding: 0;   */
-   text-align: center; 
+   /* text-align: center;  */
 } 
 
  .ipsum button{
@@ -3115,7 +3095,7 @@ africa{
 .leap{
   width: auto;
   height: auto; 
-    margin-right: 60px; 
+    margin-right: 200px; 
   margin-top: 20px;
   
 }
@@ -3138,7 +3118,7 @@ africa{
   
   width: auto;
   height: auto;
-  /* margin-left: 70px;  */
+   margin-left: 200px;  
   margin-top: 20px;
 
 }
