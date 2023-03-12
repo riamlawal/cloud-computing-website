@@ -3036,8 +3036,8 @@ africa{
 
 .ipsum p{
  font-size: 45px;
- /* margin-left: 80px; */
-   text-align: center;  
+  margin-left: 100px; 
+   /* text-align: center;   */
  
 } 
 
@@ -3046,10 +3046,10 @@ africa{
    font-size: 50px;
    color: #002A50;
     margin-top: 60px;
-    /* margin-left: 80px; */
+     margin-left: 100px; 
     /* margin: 0;  */
      /* padding: 0;   */
-   text-align: center;  
+   /* text-align: center;   */
 } 
 
  .ipsum button{
@@ -3095,7 +3095,7 @@ africa{
 .leap{
   width: auto;
   height: auto; 
-    margin-right: 450px; 
+    margin-right: auto; 
   margin-top: 20px;
   
 }
@@ -3118,7 +3118,7 @@ africa{
   
   width: auto;
   height: auto;
-   margin-left: 450px;  
+   margin-right: auto;  
   margin-top: 20px;
 
 }
@@ -3146,13 +3146,13 @@ africa{
 .solutions{
   display: inline-block;
   flex-wrap: wrap;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .typesetting{
   display: inline-block;
   flex-wrap: wrap;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 
