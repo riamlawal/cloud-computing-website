@@ -3095,13 +3095,13 @@ africa{
 .leap{
   width: auto;
   height: auto; 
-    margin-right: auto; 
+    margin-right: -210px; 
   margin-top: 20px;
   
 }
 
 .leap img{
-  width: 350px;
+  width: 250px;
   height: 250px;
  border-radius: 10px; 
 }
@@ -3118,13 +3118,13 @@ africa{
   
   width: auto;
   height: auto;
-   margin-right: auto;  
+   margin-right: -210px;  
   margin-top: 20px;
 
 }
 
 .desktop img{
-  width: 350px;
+  width: 250px;
   height: 250px;
   border-radius: 10px;
 }
@@ -3146,13 +3146,13 @@ africa{
 .solutions{
   display: inline-block;
   flex-wrap: wrap;
-  /* margin-left: 80px; */
+  margin-left: 80px;
 }
 
 .typesetting{
   display: inline-block;
   flex-wrap: wrap;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 
 
@@ -3191,14 +3191,14 @@ africa{
 .product{
   display: display;
   flex-wrap: wrap;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   /* justify-content: space-between; */
   /* align-items: center; */
   
 }
 
 .top{
-  height: 90px;
+  height: 100px;
   width: 160px;
   border: 1px solid black;
     padding-left: 80px;  
