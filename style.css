@@ -44,7 +44,8 @@
 
 
 nav {
-  background: #fff;
+  background: #002A50;
+   height: 50px; 
 }
 
 nav:after {
@@ -53,19 +54,22 @@ nav:after {
   display: table;
 }
 
-nav .logo{
+nav .logo {
   float: left;
+  font-weight: bolder;
   /* text-transform: uppercase; */
-  font-size: 25px;
-  font-weight: 600;
+  /* font-size: 25px; */
+  /* font-weight: 600; */
   /* line-height: 50px; */
   padding-left: 100px; 
   display: flex;
   margin-top: 10px;
 }
-nav .logo h2{
-      /* height: 45px; */
-}
+ nav .logo h2{
+   color: #fff;
+   margin-top: 5px;
+   font-size: 25px;
+ }
 
 nav ul {
   float: right;
@@ -77,18 +81,18 @@ nav ul {
 nav ul li {
   float: left;
   display: inline-block;
-  background: #fff;
+  /* background: #fff; */
   margin: 0 5px;
 }
 
 nav ul li a {
-  color: #7e30a3;
-  line-height: 70px;
+  color: #fff;
+  /* line-height: 70px; */
   text-decoration: none;
-  font-size: 18px;
+ font-size: 18px; 
   padding: 8px 15px;
   /* text-transform: uppercase; */
-  font-weight: 600;
+  font-weight: bold; 
 }
 /* 
 nav ul li a:hover {
@@ -104,12 +108,12 @@ nav ul ul {
   transition: top .3s;
 }
 
-nav ul li:hover>ul {
+/* nav ul li:hover>ul {
   top: 70px;
   opacity: 1;
   visibility: visible;
   z-index: 2;
-}
+} */
 
 nav ul ul li {
   position: relative;
