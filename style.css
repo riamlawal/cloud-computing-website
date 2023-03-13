@@ -44,7 +44,7 @@
 
 
 nav {
-  background: #fff;
+  background: #002A50;
 }
 
 nav:after {
@@ -56,15 +56,17 @@ nav:after {
 nav .logo{
   float: left;
   text-transform: uppercase;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 300;
   line-height: 50px;
   padding-left: 100px; 
   display: flex;
   margin-top: 10px;
 }
-nav .logo img{
-      height: 45px;
+nav .logo h2{
+      /* height: 45px; */
+      color: #fff;
+      font-size: 15px;
 }
 
 nav ul {
@@ -77,13 +79,13 @@ nav ul {
 nav ul li {
   float: left;
   display: inline-block;
-  background: #fff;
+  /* background: #fff; */
   margin: 0 5px;
 }
 
 nav ul li a {
-  color: #7e30a3;
-  line-height: 70px;
+  color: #fff;
+  line-height: 30px;
   text-decoration: none;
   font-size: 18px;
   padding: 8px 15px;
@@ -92,7 +94,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: white;
+  /* color: white; */
   background-color: #7E30A3;
 }
 
